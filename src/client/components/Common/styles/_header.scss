@@ -1,0 +1,28 @@
+header {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    .uk-navbar-container {
+        max-width: 960px;
+        margin: auto;
+    }
+    .uk-navbar-nav {
+        li {
+            a {
+                color: black;
+                &:hover {
+                    color: #f1d124
+                }
+            }
+        }
+    }
+}
+
+#login-modal {
+    .uk-modal-dialog {
+        max-width: 400px;
+    }
+}
+#sign-up-modal {
+    .uk-modal-dialog {
+        max-width: 400px;
+    }
+}

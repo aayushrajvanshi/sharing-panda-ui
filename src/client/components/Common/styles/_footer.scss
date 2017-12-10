@@ -1,0 +1,67 @@
+.footer-list p {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.footer-list .icon-list {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    line-height: 1.5rem;
+}
+
+.footer-list .icon-list li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 0.8rem;
+    position: relative;
+}
+
+.footer-list .icon-list li a {
+    color: black!important;
+}
+
+.footer-list .icon-list li:last-of-type {
+    margin-right: 0;
+}
+
+.footer-list .other-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+}
+
+.footer-list .other-list li {
+    font-size: 0.8rem;
+    position: relative;
+}
+
+.footer-list .other-list li:hover {
+    color: black;
+}
+
+.footer-list .other-list li:before {
+    content: '';
+    width: 2px;
+    height: 0;
+    background-color: black;
+    margin-top: 0px;
+    left: -10px;
+    position: absolute;
+    transition: all ease 0.2s;
+}
+
+.footer-list .other-list li:hover:before {
+    height: 100%;
+}
+
+.footer-list .other-list li a {
+    font-size: 0.8rem;
+    color: black!important;
+    text-decoration: none;
+}
+
+.footer-list .other-list li a:hover {
+    color: black!important;
+}

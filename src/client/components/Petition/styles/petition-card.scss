@@ -1,0 +1,136 @@
+.petition-card {
+    margin: auto;
+    display: block;
+    border: 1px solid #ddd;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+
+// .petition-card hr{
+//     margin: 0px;
+//     width: 90%;
+//     border: 1px solid #ddd;
+// }
+
+.petition-card  .bookmark{
+    position: absolute;
+    top:10px;
+    right: 20px;
+    z-index: 100000;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.petition-image {
+    height: 150px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.petition-image img {
+    height: 250px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.petition-info {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.petition-title {
+    line-height: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.petitioner {
+    margin: 10px 0;
+}
+.petitioner img {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.petition-description{
+    color: black;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+    margin: 10px 0;
+}
+
+.petition-info span:first-of-type {
+    font-size: 0.8rem;
+    color: black;
+}
+
+.petition-info span:first-of-type:after {
+    content: " "
+}
+
+.petition-info span:last-of-type {
+    font-size: 0.8rem;
+    color: #165fda;
+}
+
+.petition-status {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    position: relative;
+    text-align: center;
+}
+
+.petition-status i,
+span {
+    font-size: 0.8rem;
+    color: black;
+}
+
+.petition-status span:before {
+    content: " "
+}
+
+.petition-status p {
+    color: black;
+    margin: 0;
+}
+
+.petition-status div {
+    display: inline-block;
+    width: 33%;
+}
+
+.petition-status div:nth-of-type(1) i {
+    color: goldenrod;
+}
+
+.petition-status div:nth-of-type(2) i {
+    color: red;
+}
+
+.petition-status div:nth-of-type(3) i {
+    color: black;
+}
+
+.petition-status div:nth-of-type(1) {
+    border-right: 1px solid #ddd;
+}
+
+.petition-status div:nth-of-type(2) {
+    border-right: 1px solid #ddd;
+}

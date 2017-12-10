@@ -1,0 +1,45 @@
+#add-petition {
+    .uk-subnav {
+        justify-content: center;
+        text-align: center;
+        * {
+            padding: 10px;
+            line-height: 30px;
+            a {
+                border: 1px solid #f1d124;
+                height: 30px;
+                width: 30px;
+                border-radius: 50px;
+            }
+        }
+    }
+    .form h1 {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .form textarea {
+        display: block;
+        width: 100%;
+        height: 50px;
+        margin: 20px 0;
+        resize: none;
+    }
+    .form textarea:focus {
+        outline: none;
+    }
+    .tips {
+        margin: 20px auto;
+        padding: 30px;
+        border: 2px solid #f1d124;
+        background-color: #f1cf2415;
+        border-radius: 4px;
+        .tip {
+            font-weight: bold;
+        }
+        ;
+        .tip-example {
+            margin-bottom: 10px;
+        }
+        ;
+    }
+}
