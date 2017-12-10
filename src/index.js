@@ -46,6 +46,5 @@ app.get('*', (req, res) => {
     });
 });
 
-app.listen(8080, () => {
-    console.log('Listening on port 8080');
-});
+let port = process.env.PORT || 8080;
+app.listen(port, () => console.log(`Server initialized on // ${new Date()}`));
