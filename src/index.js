@@ -14,7 +14,7 @@ app.use(
     proxy(API_BASE_URL, {
         proxyReqOptDecorator(opts) {
             // opts.headers['X-Forwarded-Host'] = 'localhost:8080';
-            opts.headers['X-Forwarded-Host'] = 'https://sharing-panda-ui.herokuapp.com';
+            opts.headers['X-Forwarded-Host'] = 'sharing-panda-ui.herokuapp.com';
             return opts;
         }
     })
