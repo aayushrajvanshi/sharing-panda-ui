@@ -22,7 +22,8 @@
     "prod:server": "node build/bundle.js",
     "prod:build-server": "webpack --config webpack.server.js -p",
     "prod:build-client": "webpack --config webpack.client.js -p",
-    "start": "npm run prod:server"
+    "start": "npm run prod:server",
+    "build": "npm run prod:build-server && npm run prod:build-client"
   },
   "dependencies": {
     "autoprefixer": "^7.1.5",
