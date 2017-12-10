@@ -60,10 +60,10 @@ const Header = ({ auth }) => (
                             <a><i className="fa fa-user-circle-o" aria-hidden="true"></i></a>
                             <div className="uk-navbar-dropdown">
                                 <ul className="uk-nav uk-navbar-dropdown-nav">
-                                    <li><a href="#">Profile</a></li>
-                                    <li><a href="#">Settings</a></li>
-                                    <li><a href="#">Start Petition</a></li>
-                                    <li><a href="#">My Petitions</a></li>
+                                    <li><Link to={`/user/${auth._id}`} target="_self">Profile</Link></li>
+                                    <li><Link to={`/user/${auth._id}/settings`} target="_self">Settings</Link></li>
+                                    <li><Link to={`/user/${auth._id}`} target="_self">My Petitions</Link></li>
+                                    <li><Link to='/start-petition' target="_self">Start a Petition</Link></li>
                                     <li><a href="#">Search</a></li>
                                     <li className="uk-nav-divider"></li>
                                     <li><a className="uk-text-bold">{(auth.google && auth.google.name) || (auth.facebook && auth.facebook.name)}</a></li>
