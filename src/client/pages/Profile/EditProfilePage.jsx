@@ -38,7 +38,7 @@ class EditProfilePage extends Component {
                             <div className="uk-margin">
                                 <label className="uk-form-label" htmlFor="city">City</label>
                                 <div className="uk-form-controls">
-                                    <input className="uk-input" id="city" name="city" type="text" placeholder="city" />
+                                    <input className="uk-input" id="city" name="city" type="text" placeholder="City" />
                                 </div>
                             </div>
                             <div className="uk-margin">

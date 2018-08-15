@@ -1,1 +1,511 @@
-header{-webkit-box-shadow:0 2px 8px rgba(0,0,0,.08);box-shadow:0 2px 8px rgba(0,0,0,.08)}header .uk-navbar-container{max-width:960px;margin:auto}header .uk-navbar-nav li a{color:#000}header .uk-navbar-nav li a:hover{color:#f1d124}#login-modal .uk-modal-dialog,#sign-up-modal .uk-modal-dialog{max-width:400px}#google-button{background-color:#fff;border-color:#fff;color:#000;font-style:"Roboto"}#facebook-button,#google-button{padding:12px 18px;font-weight:700}#facebook-button{background-color:#3c5a99;border-color:#3c5a99;color:#fff}.footer-list p{font-size:1.1rem;color:#000}.footer-list .icon-list{list-style:none;margin:auto;padding:0;line-height:1.5rem}.footer-list .icon-list li{display:inline;margin-right:15px;font-size:.8rem;position:relative}.footer-list .icon-list li a{color:#000!important}.footer-list .icon-list li:last-of-type{margin-right:0}.footer-list .other-list{list-style:none;margin:0;padding:0;line-height:1.5rem}.footer-list .other-list li{font-size:.8rem;position:relative}.footer-list .other-list li:hover{color:#000}.footer-list .other-list li:before{content:"";width:2px;height:0;background-color:#000;margin-top:0;left:-10px;position:absolute;-webkit-transition:all .2s ease;transition:all .2s ease}.footer-list .other-list li:hover:before{height:100%}.footer-list .other-list li a{font-size:.8rem;color:#000!important;text-decoration:none}.footer-list .other-list li a:hover{color:#000!important}.sp{width:32px;height:32px;clear:both;margin:20px auto}.sp-circle{border:4px solid rgba(0,0,0,.25);border-top:4px solid #000;border-radius:50%;-webkit-animation:spCircRot .6s infinite linear;animation:spCircRot .6s infinite linear}@-webkit-keyframes spCircRot{0%{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(359deg)}}@keyframes spCircRot{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}.sp-3balls,.sp-3balls:after,.sp-3balls:before{border-radius:50%;background-color:#000;width:18px;height:18px;-webkit-transform-origin:center center;-ms-transform-origin:center center;transform-origin:center center;display:inline-block}.sp-3balls{position:relative;background-color:#000;opacity:1;-webkit-animation:spScaleAlpha 1s infinite linear;animation:spScaleAlpha 1s infinite linear}.sp-3balls:after,.sp-3balls:before{content:"";position:relative;opacity:.25}.sp-3balls:before{left:30px;top:0;-webkit-animation:spScaleAlphaBefore 1s infinite linear;animation:spScaleAlphaBefore 1s infinite linear}.sp-3balls:after{left:-30px;top:-18px;-webkit-animation:spScaleAlphaAfter 1s infinite linear;animation:spScaleAlphaAfter 1s infinite linear}@-webkit-keyframes spScaleAlpha{0%{opacity:1}33%{opacity:.25}66%{opacity:.25}to{opacity:1}}@keyframes spScaleAlpha{0%{opacity:1}33%{opacity:.25}66%{opacity:.25}to{opacity:1}}@-webkit-keyframes spScaleAlphaBefore{0%{opacity:.25}33%{opacity:1}66%{opacity:.25}}@keyframes spScaleAlphaBefore{0%{opacity:.25}33%{opacity:1}66%{opacity:.25}}@-webkit-keyframes spScaleAlphaAfter{33%{opacity:.25}66%{opacity:1}to{opacity:.25}}@keyframes spScaleAlphaAfter{33%{opacity:.25}66%{opacity:1}to{opacity:.25}}.campaign-card{margin:auto;display:inline-block;border:1px solid #ddd;border-radius:4px;position:relative;overflow:hidden;height:400px}.campaign-card hr{max-width:90%;margin:auto}.campaign-card:hover .social{right:0}.card-image{width:100%;height:150px;display:block;margin:0 0 10px;position:relative;overflow:hidden}.card-image .category{min-width:50px;left:0;bottom:0;padding:0 10px;background-color:#daa520;text-align:center;position:absolute}.card-image .category span{color:#fff;font-size:12px}.social{width:40px;top:20px;right:-40px;position:absolute;transition:all .3s ease;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-webkit-transition:all .3s ease;-o-transition:all .3ss ease}.social span{display:block;margin:5px 0;height:40px;background-color:#daa520;text-align:center}.social span i{font-size:1.5rem;line-height:40px;color:#fff}.campaign-info{width:100%;display:block;position:relative;padding:0 10px 10px;-webkit-box-sizing:border-box;box-sizing:border-box}.campaign-info p:first-of-type{line-height:1.2rem;font-size:1rem;margin:0;color:#000}.campaign-info span:first-of-type{font-size:.8rem;color:#000}.campaign-info span:first-of-type:after{content:" "}.campaign-info span:last-of-type{font-size:.8rem;color:#165fda}.campaign-info p:last-of-type{color:#000;line-height:1.2rem;font-size:.8rem;margin:0}.campaign-progress{width:100%;display:block;padding:0 10px;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:.7rem;position:relative;margin:0 0 10px}.campaign-progress span p{margin:0;display:inline}.campaign-progress span:first-child{color:#000;float:left}.campaign-progress span:last-of-type p{color:#000;float:right}.campaign-progress progress{margin:5px 0 0;display:inline-block;height:8px}.campaign-status{width:100%;display:block;padding:10px;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:.7rem;position:relative;margin:10px 0;text-align:center}.campaign-status i,span{font-size:.8rem;color:#000}.campaign-status span:before{content:" "}.campaign-status p{color:#000;margin:0}.campaign-status div{display:inline-block;width:33%}.campaign-status div:first-of-type i{color:#daa520}.campaign-status div:nth-of-type(2) i{color:red}.campaign-status div:nth-of-type(3) i{color:#000}.campaign-status div:first-of-type,.campaign-status div:nth-of-type(2){border-right:1px solid #ddd}.petition-card{margin:auto;display:block;border:1px solid #ddd;position:relative;overflow:hidden;height:400px}.petition-card .bookmark{position:absolute;top:10px;right:20px;z-index:100000;font-size:1.5rem;color:#fff}.petition-image{height:150px;display:block;position:relative;overflow:hidden}.petition-image img{height:250px;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;transition:all 1s ease;-moz-transition:all 1s ease;-ms-transition:all 1s ease;-webkit-transition:all 1s ease;-o-transition:all 1s ease}.petition-info{width:100%;display:block;position:relative;padding:10px;-webkit-box-sizing:border-box;box-sizing:border-box}.petition-title{line-height:1.2rem;font-size:1rem;margin-bottom:10px;color:#000}.petitioner{margin:10px 0}.petitioner img{border-radius:50%;margin-right:5px}.petition-description{line-height:1.2rem;margin:10px 0}.petition-description,.petition-info span:first-of-type{color:#000;font-size:.8rem}.petition-info span:first-of-type:after{content:" "}.petition-info span:last-of-type{font-size:.8rem;color:#165fda}.petition-status{width:100%;display:block;padding:10px;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:.7rem;position:relative;text-align:center}.petition-status i,span{font-size:.8rem;color:#000}.petition-status span:before{content:" "}.petition-status p{color:#000;margin:0}.petition-status div{display:inline-block;width:33%}.petition-status div:first-of-type i{color:#daa520}.petition-status div:nth-of-type(2) i{color:red}.petition-status div:nth-of-type(3) i{color:#000}.petition-status div:first-of-type,.petition-status div:nth-of-type(2){border-right:1px solid #ddd}#add-petition .uk-subnav{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;text-align:center}#add-petition .uk-subnav *{padding:10px;line-height:30px}#add-petition .uk-subnav * a{border:1px solid #f1d124;height:30px;width:30px;border-radius:50px}#add-petition .form h1{font-weight:700;margin-bottom:10px}#add-petition .form textarea{display:block;width:100%;height:50px;margin:20px 0;resize:none}#add-petition .form textarea:focus{outline:none}#add-petition .tips{margin:20px auto;padding:30px;border:2px solid #f1d124;background-color:#f1cf2415;border-radius:4px}#add-petition .tips .tip{font-weight:700}#add-petition .tips .tip-example{margin-bottom:10px}
+header {
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); }
+  header .uk-navbar-container {
+    max-width: 960px;
+    margin: auto; }
+  header .uk-navbar-nav li a {
+    color: black; }
+    header .uk-navbar-nav li a:hover {
+      color: #f1d124; }
+
+#login-modal .uk-modal-dialog {
+  max-width: 400px; }
+
+#sign-up-modal .uk-modal-dialog {
+  max-width: 400px; }
+#google-button {
+  padding: 12px 18px;
+  background-color: white;
+  border-color: white;
+  color: #000000;
+  font-weight: bold;
+  font-style: "Roboto"; }
+
+#facebook-button {
+  padding: 12px 18px;
+  background-color: #3C5A99;
+  border-color: #3C5A99;
+  color: white;
+  font-weight: bold; }
+.footer-list p {
+  font-size: 1.1rem;
+  color: black; }
+
+.footer-list .icon-list {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  line-height: 1.5rem; }
+
+.footer-list .icon-list li {
+  display: inline;
+  margin-right: 15px;
+  font-size: 0.8rem;
+  position: relative; }
+
+.footer-list .icon-list li a {
+  color: black !important; }
+
+.footer-list .icon-list li:last-of-type {
+  margin-right: 0; }
+
+.footer-list .other-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem; }
+
+.footer-list .other-list li {
+  font-size: 0.8rem;
+  position: relative; }
+
+.footer-list .other-list li:hover {
+  color: black; }
+
+.footer-list .other-list li:before {
+  content: '';
+  width: 2px;
+  height: 0;
+  background-color: black;
+  margin-top: 0px;
+  left: -10px;
+  position: absolute;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s; }
+
+.footer-list .other-list li:hover:before {
+  height: 100%; }
+
+.footer-list .other-list li a {
+  font-size: 0.8rem;
+  color: black !important;
+  text-decoration: none; }
+
+.footer-list .other-list li a:hover {
+  color: black !important; }
+/* Spinner 3Balls Scale */
+.sp {
+  width: 32px;
+  height: 32px;
+  clear: both;
+  margin: 20px auto; }
+
+.sp-circle {
+  border: 4px rgba(0, 0, 0, 0.25) solid;
+  border-top: 4px black solid;
+  border-radius: 50%;
+  -webkit-animation: spCircRot .6s infinite linear;
+  animation: spCircRot .6s infinite linear; }
+
+@-webkit-keyframes spCircRot {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg); } }
+
+@keyframes spCircRot {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg); } }
+
+.sp-3balls,
+.sp-3balls:before,
+.sp-3balls:after {
+  border-radius: 50%;
+  background-color: #000;
+  width: 18px;
+  height: 18px;
+  -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+          transform-origin: center center;
+  display: inline-block; }
+
+.sp-3balls {
+  position: relative;
+  background-color: black;
+  opacity: 1;
+  -webkit-animation: spScaleAlpha 1s infinite linear;
+  animation: spScaleAlpha 1s infinite linear; }
+
+.sp-3balls:before,
+.sp-3balls:after {
+  content: '';
+  position: relative;
+  opacity: 0.25; }
+
+.sp-3balls:before {
+  left: 30px;
+  top: 0px;
+  -webkit-animation: spScaleAlphaBefore 1s infinite linear;
+  animation: spScaleAlphaBefore 1s infinite linear; }
+
+.sp-3balls:after {
+  left: -30px;
+  top: -18px;
+  -webkit-animation: spScaleAlphaAfter 1s infinite linear;
+  animation: spScaleAlphaAfter 1s infinite linear; }
+
+@-webkit-keyframes spScaleAlpha {
+  0% {
+    opacity: 1; }
+  33% {
+    opacity: 0.25; }
+  66% {
+    opacity: 0.25; }
+  100% {
+    opacity: 1; } }
+
+@keyframes spScaleAlpha {
+  0% {
+    opacity: 1; }
+  33% {
+    opacity: 0.25; }
+  66% {
+    opacity: 0.25; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes spScaleAlphaBefore {
+  0% {
+    opacity: 0.25; }
+  33% {
+    opacity: 1; }
+  66% {
+    opacity: 0.25; } }
+
+@keyframes spScaleAlphaBefore {
+  0% {
+    opacity: 0.25; }
+  33% {
+    opacity: 1; }
+  66% {
+    opacity: 0.25; } }
+
+@-webkit-keyframes spScaleAlphaAfter {
+  33% {
+    opacity: 0.25; }
+  66% {
+    opacity: 1; }
+  100% {
+    opacity: 0.25; } }
+
+@keyframes spScaleAlphaAfter {
+  33% {
+    opacity: 0.25; }
+  66% {
+    opacity: 1; }
+  100% {
+    opacity: 0.25; } }
+.campaign-card {
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  height: 400px; }
+
+.campaign-card hr {
+  max-width: 90%;
+  margin: auto; }
+
+.campaign-card:hover .social {
+  right: 0px; }
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  display: block;
+  margin: 0px 0 10px 0;
+  position: relative;
+  overflow: hidden; }
+
+.card-image .category {
+  min-width: 50px;
+  left: 0px;
+  bottom: 0px;
+  padding: 0 10px;
+  background-color: goldenrod;
+  text-align: center;
+  position: absolute; }
+
+.card-image .category span {
+  color: white;
+  font-size: 12px; }
+
+.social {
+  width: 40px;
+  top: 20px;
+  right: -40px;
+  position: absolute;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3ss ease; }
+
+.social span {
+  display: block;
+  margin: 5px 0px;
+  height: 40px;
+  background-color: goldenrod;
+  text-align: center; }
+
+.social span i {
+  font-size: 1.5rem;
+  line-height: 40px;
+  color: white; }
+
+.campaign-info {
+  width: 100%;
+  display: block;
+  position: relative;
+  padding: 0 10px 10px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.campaign-info p:first-of-type {
+  line-height: 1.2rem;
+  font-size: 1rem;
+  margin: 0px;
+  color: black; }
+
+.campaign-info span:first-of-type {
+  font-size: 0.8rem;
+  color: black; }
+
+.campaign-info span:first-of-type:after {
+  content: " "; }
+
+.campaign-info span:last-of-type {
+  font-size: 0.8rem;
+  color: #165fda; }
+
+.campaign-info p:last-of-type {
+  color: black;
+  line-height: 1.2rem;
+  font-size: 0.8rem;
+  margin: 0px; }
+
+.campaign-progress {
+  width: 100%;
+  display: block;
+  padding: 0 10px 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 0.7rem;
+  position: relative;
+  margin: 0 0 10px 0; }
+
+.campaign-progress span p {
+  margin: 0;
+  display: inline; }
+
+.campaign-progress span:first-child {
+  color: black;
+  float: left; }
+
+.campaign-progress span:last-of-type p {
+  color: black;
+  float: right; }
+
+.campaign-progress progress {
+  margin: 5px 0 0 0;
+  display: inline-block;
+  height: 8px; }
+
+.campaign-status {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 0.7rem;
+  position: relative;
+  margin: 10px 0;
+  text-align: center; }
+
+.campaign-status i,
+span {
+  font-size: 0.8rem;
+  color: black; }
+
+.campaign-status span:before {
+  content: " "; }
+
+.campaign-status p {
+  color: black;
+  margin: 0; }
+
+.campaign-status div {
+  display: inline-block;
+  width: 33%; }
+
+.campaign-status div:nth-of-type(1) i {
+  color: goldenrod; }
+
+.campaign-status div:nth-of-type(2) i {
+  color: red; }
+
+.campaign-status div:nth-of-type(3) i {
+  color: black; }
+
+.campaign-status div:nth-of-type(1) {
+  border-right: 1px solid #ddd; }
+
+.campaign-status div:nth-of-type(2) {
+  border-right: 1px solid #ddd; }
+.petition-card {
+  margin: auto;
+  display: block;
+  border: 1px solid #ddd;
+  position: relative;
+  overflow: hidden;
+  height: 400px; }
+
+.petition-card .bookmark {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 100000;
+  font-size: 1.5rem;
+  color: white; }
+
+.petition-image {
+  height: 150px;
+  display: block;
+  position: relative;
+  overflow: hidden; }
+
+.petition-image img {
+  height: 250px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease; }
+
+.petition-info {
+  width: 100%;
+  display: block;
+  position: relative;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.petition-title {
+  line-height: 1.2rem;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: black; }
+
+.petitioner {
+  margin: 10px 0; }
+
+.petitioner img {
+  border-radius: 50%;
+  margin-right: 5px; }
+
+.petition-description {
+  color: black;
+  line-height: 1.2rem;
+  font-size: 0.8rem;
+  margin: 10px 0; }
+
+.petition-info span:first-of-type {
+  font-size: 0.8rem;
+  color: black; }
+
+.petition-info span:first-of-type:after {
+  content: " "; }
+
+.petition-info span:last-of-type {
+  font-size: 0.8rem;
+  color: #165fda; }
+
+.petition-status {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 0.7rem;
+  position: relative;
+  text-align: center; }
+
+.petition-status i,
+span {
+  font-size: 0.8rem;
+  color: black; }
+
+.petition-status span:before {
+  content: " "; }
+
+.petition-status p {
+  color: black;
+  margin: 0; }
+
+.petition-status div {
+  display: inline-block;
+  width: 33%; }
+
+.petition-status div:nth-of-type(1) i {
+  color: goldenrod; }
+
+.petition-status div:nth-of-type(2) i {
+  color: red; }
+
+.petition-status div:nth-of-type(3) i {
+  color: black; }
+
+.petition-status div:nth-of-type(1) {
+  border-right: 1px solid #ddd; }
+
+.petition-status div:nth-of-type(2) {
+  border-right: 1px solid #ddd; }
+#add-petition .uk-subnav {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center; }
+  #add-petition .uk-subnav * {
+    padding: 10px;
+    line-height: 30px; }
+    #add-petition .uk-subnav * a {
+      border: 1px solid #f1d124;
+      height: 30px;
+      width: 30px;
+      border-radius: 50px; }
+
+#add-petition .form h1 {
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+#add-petition .form textarea {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+  resize: none; }
+
+#add-petition .form textarea:focus {
+  outline: none; }
+
+#add-petition .tips {
+  margin: 20px auto;
+  padding: 30px;
+  border: 2px solid #f1d124;
+  background-color: #f1cf2415;
+  border-radius: 4px; }
+  #add-petition .tips .tip {
+    font-weight: bold; }
+  #add-petition .tips .tip-example {
+    margin-bottom: 10px; }
